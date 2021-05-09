@@ -1,0 +1,33 @@
+.inputDiv{
+    background-color: rgb(166, 221, 196);
+    border: px solid rgb(99, 197, 153); 
+}
+.inputDiv input[type='number'] , select{
+    padding: 0% 5%;
+    height: 50px;
+}
+.inputForm{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+     width: 10%;
+    padding: 1%;
+    background-color: #aeeb93;
+    border-radius: 10px;
+}
+.btn-Submit{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.result{
+    /* margin-top: 2px;
+    width: 25%;
+    border: 2px solid rgb(99, 197, 153); */
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}

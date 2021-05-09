@@ -1,0 +1,8 @@
+<div class="container">
+    <app-input (operands)='calculate($event)' [result]='result'></app-input>
+    <div class="card" *ngFor='let res of calcHistory.history'>
+        <div class="card-container">
+            <h3>{{res.operand1}} {{res.operator}} {{res.operand2}} = {{res.result}}</h3>
+        </div> 
+    </div>
+</div>
